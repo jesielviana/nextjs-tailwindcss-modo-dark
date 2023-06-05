@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="grid gap-4 grid-cols-3">
+    <div className="flex flex-col md:flex-row gap-4 ">
       <Card /> <Card /> <Card />
     </div>
   );
